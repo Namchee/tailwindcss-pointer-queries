@@ -1,12 +1,7 @@
 import plugin from 'tailwindcss/plugin.js';
 
-export default plugin(({ addUtilities }) => {
-    addUtilities({
-        '.pointer-none': {
-            pointerEvents: 'none',
-        },
-        '.pointer-auto': {
-            pointerEvents: 'auto',
-        },
-    });
+export default plugin(({ addVariant }) => {
+    addVariant('pointer-none', '@media (pointer: none)');
+    addVariant('pointer-fine', '@media (pointer: fine)');
+    addVariant('pointer-coarse', '@media (pointer: coarse)');
 });
