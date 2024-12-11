@@ -8,7 +8,5 @@
         "module": "NodeNext",
         "moduleDetection": "force",
         "moduleResolution": "NodeNext",
-        "isolatedModules": true,
-        "verbatimModuleSyntax": true
-    }
+        "isolatedModules": true    }
 }
