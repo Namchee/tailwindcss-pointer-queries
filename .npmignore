@@ -1,0 +1,4 @@
+.editorconfig
+biome.config.json
+*.ts
+tsconfig.json

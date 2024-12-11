@@ -3,7 +3,7 @@ import tailwindcss from 'tailwindcss';
 
 import { expect, test } from 'vitest';
 
-import plugin from './index.js';
+import plugin from './index';
 
 async function generate(content: string): Promise<string> {
   const { css } = await postcss(tailwindcss({
