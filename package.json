@@ -1,6 +1,6 @@
 {
   "name": "@namchee/tailwindcss-pointer-queries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TailwindCSS plugin that adds pointer media queries",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "vitest": "^2.1.8"
   },
   "peerDependencies": {
-    "tailwincss": ">=3.2.0"
+    "tailwindcss": ">=3.2.0"
   },
   "publishConfig": {
     "access": "public",
