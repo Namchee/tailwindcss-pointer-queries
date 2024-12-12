@@ -2,3 +2,7 @@
 biome.config.json
 *.ts
 tsconfig.json
+
+demo/*
+.changeset/*
+.github/*
