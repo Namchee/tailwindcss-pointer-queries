@@ -45,7 +45,7 @@ However, you realized that this isn't what you want. What you really want is det
 whether the device has *at least one* touch inputs. In this case, you can use the `pointer-any-coarse` instead
 
 ```html
-<button class="pointer-coarse:hidden">
+<button class="pointer-any-coarse:hidden">
   Look ma! I can't be touched by those touch devices!
 </button>
 ```
