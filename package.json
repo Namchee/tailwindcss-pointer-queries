@@ -1,7 +1,7 @@
 {
-  "name": "@namchee/tailwindcss-pointer-queries",
+  "name": "@namchee/tvt",
   "version": "1.0.1",
-  "description": "A TailwindCSS plugin that adds pointer media queries",
+  "description": "A TailwindCSS plugin that adds missing media queries which aren't implemented in TailwindCSS (yet)",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Namchee/tailwindcss-pointer-queries.git"
+    "url": "git+https://github.com/Namchee/tvt.git"
   },
   "license": "MIT",
   "devDependencies": {
